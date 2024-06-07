@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'zeyda';
+  src: url('../fonts/Zeyada.ttf');
+}
+
+@font-face {
+  font-family: 'zindsong';
+  src: url('../fonts/WindSong.ttf');
+}
+
+@font-face {
+  font-family: 'outfitblack';
+  src: url('../fonts/Outfit/static/Outfit-Black.ttf');
+}
+
+@font-face {
+  font-family: 'outfitthin';
+  src: url('../fonts/Outfit/static/Outfit-Thin.ttf');
+}
+@font-face {
+  font-family: 'outfitregular';
+  src: url('../fonts/Outfit/static/Outfit-Regular.ttf');
+}
+@font-face {
+  font-family: 'extralight';
+  src: url('../fonts/Outfit/static/Outfit-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'allison';
+  src: url('../fonts/Allison.ttf');
+},
+
+:root{
+    .disable-click {
+        pointer-events: none;
+      }
+      #sec {
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden;
+      }
+      html, body {
+        overflow: hidden; /* Hide overflow for the entire page */
+        height: 100%; /* Ensure the height is 100% */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      
+      * {
+        box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+      }
+      
+
+      
+}
