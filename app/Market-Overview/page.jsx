@@ -7,7 +7,7 @@ import User from '../user';
 import { NavItem } from '../nav-item';
 import { Analytics } from '@vercel/analytics/react';
 
-const Layout = ({ children, searchParams }) => {
+const Layout = () => {
 
   const search = searchParams?.q ?? '';
   const offset = searchParams?.offset ?? 0;
