@@ -7,7 +7,7 @@ import User from '../user';
 import { NavItem } from '../nav-item';
 import { Analytics } from '@vercel/analytics/react';
 
-const Layout = () => {
+const Layout = ({ children }) => {
   const [showDropdown, setShowDropdown] = useState(true);
 
   const toggleDropdown = () => {

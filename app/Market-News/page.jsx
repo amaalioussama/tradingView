@@ -8,7 +8,7 @@ import { NavItem } from '../nav-item';
 import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState } from 'react';
 
-const Layout = () => {
+const Layout = ({ children }) => {
   const [showDropdown, setShowDropdown] = useState(true);
 
   const toggleDropdown = () => {
